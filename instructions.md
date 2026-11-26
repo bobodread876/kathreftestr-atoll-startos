@@ -11,4 +11,4 @@ Mirror a YouTube/Twitch livestream onto Nostr (NIP-53) with Lightning zaps.
 sats, sign in to npub.cash with the stream's nsec (shown when you go live) and
 withdraw. Copy the nsec. A fresh key is generated per stream.
 
-**External playback.** Route a public HTTPS address to the web interface. In **Set Playback URL**, save the full playback endpoint (for example, `https://stream.example.com/live`) before starting a stream. Clear the field to restore local playback.
+**External playback.** Configure your reverse proxy to forward only playback requests under `/live/` to Kathreftestr. Keep the dashboard and `/api/` on your private network. In **Set Playback URL**, save the full playback endpoint (for example, `https://stream.example.com/live`) before starting a stream. Clear the field to restore local playback.
