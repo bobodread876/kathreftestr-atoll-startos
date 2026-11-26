@@ -5,7 +5,7 @@ export const manifest = setupManifest({
   id: 'kathreftestr',
   title: 'Kathreftestr',
   license: 'MIT',
-  packageRepo: 'https://github.com/bobodread876/kathreftestr',
+  packageRepo: 'https://github.com/islandbitcoin/kathreftestr-startos',
   upstreamRepo: 'https://github.com/bobodread876/kathreftestr',
   marketingUrl: 'https://bobodread876.github.io/kathreftestr/',
   donationUrl: null,

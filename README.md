@@ -13,3 +13,7 @@ Docker, Node, and `jq`.
 npm ci
 make            # → kathreftestr.s9pk
 ```
+
+## Public playback
+
+**Set Playback URL** stores the public HLS endpoint on the backed-up main volume. New stream events advertise that address. An empty setting uses the local playback endpoint.
